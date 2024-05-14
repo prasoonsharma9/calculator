@@ -1,0 +1,42 @@
+H1{
+  text-align: center;
+  margin: 30px;
+}
+#calculator{
+  border: 1px solid rgb(135, 133, 133);
+  width: 330px;
+  border-radius: 6px;
+  margin-left: 40%;
+}
+
+#display{
+  border: 1px solid rgb(53, 52, 52);
+  border-radius: 3px;
+  margin: 10px;
+  width: 92%;
+  height: 65px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  width: 70px;
+  height: 70px;
+  margin: 3px 5px;
+  border: 1.5px solid rgb(91, 89, 89);
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
